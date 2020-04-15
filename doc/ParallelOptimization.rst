@@ -99,7 +99,8 @@ synchronous optimization. So, we will, for our work, use this hybrid model.
 Adam Optimization
 -----------------
 
-In constrast to
+In conDE
+trast to
 `Deep Speech: Scaling up end-to-end speech recognition <http://arxiv.org/abs/1412.5567>`_,
 in which `Nesterov’s Accelerated Gradient Descent <www.cs.toronto.edu/~fritz/absps/momentum.pdf>`_ was used, we will use the Adam method for optimization `[3] <http://arxiv.org/abs/1412.6980>`_,
 because, generally, it requires less fine-tuning.
